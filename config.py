@@ -4,11 +4,11 @@ from pathlib import Path
 
 class Config:
     # Настройки БД
-    DB_USER = "postgres"
-    DB_PASSWORD = "postgres123"
-    DB_HOST = "localhost"
-    DB_PORT = "5432"
-    DB_NAME = "attendance_db"
+    DB_USER = ""
+    DB_PASSWORD = ""
+    DB_HOST = ""
+    DB_PORT = ""
+    DB_NAME = ""
 
     # Пути
     BASE_DIR = Path(__file__).parent
